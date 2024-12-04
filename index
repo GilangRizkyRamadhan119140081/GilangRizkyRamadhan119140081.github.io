@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/extend-native-history-api.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/requests.js"></script><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/editor.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+  <script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/../executers/vi-tr.js"></script></head>
+
+  <body __processed_72586bf4-e832-4e33-ab8e-164ff4b4bd08__="true" bis_status="ok" bis_frame_id="477" style="background-color: rgb(54, 66, 82);">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" style="color: rgb(255, 255, 255);">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b>PORTOFOLIO</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <section id="about" class="bg-light">
+  <div class="container-fluid bg-dark" style="color: rgb(255, 255, 255);">
+    <h1 class="text-center">About Me / Tentang Saya</h1>
+    <p class="text-center mt-4">
+      Saya adalah <strong>Gilang Rizky Ramadhan</strong>, lulusan S1 Teknik Informatika dari Institut Teknologi Sumatera. 
+      Teliti, mudah didekati, dan antusias mempelajari teknologi baru. Keahlian saya meliputi pengembangan 
+      web menggunakan <strong>Flutter</strong>, <strong>Laravel</strong>, dan <strong>WordPress</strong>. Saya juga memiliki kemampuan di bidang IT 
+      support, pemasaran digital, dan optimasi performa situs web (SEO).
+      <br>
+      I am <strong>Gilang Rizky Ramadhan</strong>, a graduate of Information Technology from Institut Teknologi Sumatera. 
+      Detail-oriented, approachable, and enthusiastic about learning new technologies. My expertise includes web development 
+      using <strong>Flutter</strong>, <strong>Laravel</strong>, and <strong>WordPress</strong>. I also have skills in IT support, 
+      digital marketing, and website performance optimization (SEO).
+    </p>
+    <div class="text-center mt-4">
+      <p><strong>Lokasi / Location:</strong> Metro, Lampung</p>
+      <p><strong>Kontak / Contact:</strong> 0851 7239 0321 | gilang26112000@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section / Bagian Portfolio -->
+<section id="portfolio" class="bg-light">
+  <div class="Default container-fluid bg-dark" style="color: rgb(255, 255, 255);">
+    <br>
+    <h1 class="text-center mb-5">Project Handled / Proyek yang Ditangani</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x150" alt="Name Quotient App">
+          <div class="card-body">
+            <h5 class="card-title">Name Quotient Apps</h5>
+            <h6 class="card-subtitle">PT. Nirmana Mosuqu Quants (Aug 2024 - Nov 2024)</h6>
+            <p>Mengembangkan aplikasi dengan backend Laravel, REST API, dan Firebase. Mengelola database dan deployment di VPS menggunakan AWS dan Nginx.</p>
+            <p>Developing the app with a Laravel backend, REST API, and Firebase. Managing the database and deployment to VPS using AWS and Nginx.</p>
+            <a href="https://play.google.com/store/search?q=name+quotient&amp;c=apps&amp;hl=id" class="view-link" target="_blank">View More →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x150" alt="Company Profile Website">
+          <div class="card-body">
+            <h5 class="card-title">Company Profile Website</h5>
+            <h6 class="card-subtitle">PT. Newus Technology (May 2024 - Oct 2024)</h6>
+            <p>Mengembangkan website menggunakan Laravel dan ReactJS, serta mengoptimalkan SEO untuk performa website.</p>
+            <p>Developed a website using Laravel and ReactJS, optimizing SEO for website performance.</p>
+            <a href="https://newus.id/" class="view-link" target="_blank">View More →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x150" alt="Website Inseleb">
+          <div class="card-body">
+            <h5 class="card-title">Website Inseleb</h5>
+            <h6 class="card-subtitle">Radar Lampung Online (Jun 2023 - Sep 2023)</h6>
+            <p>Membuat desain frontend dengan HTML, CSS, dan JavaScript. Melakukan simulasi dan testing untuk memastikan fungsionalitas.</p>
+            <p>Created frontend design with HTML, CSS, and JavaScript. Performed simulations and testing to ensure functionality.</p>
+            <a href="https://inseleb.com/" class="view-link" target="_blank">View More →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x150" alt="Travel &amp; Car Rental Website">
+          <div class="card-body">
+            <h5 class="card-title">Travel &amp; Car Rental Website</h5>
+            <h6 class="card-subtitle">PT. Newus Technology (Jun 2024 - Sep 2024)</h6>
+            <p>Mengembangkan solusi rental mobil berbasis web menggunakan Laravel, serta optimasi performa dengan SEO.</p>
+            <p>Developed a web-based car rental solution using Laravel, along with performance optimization via SEO.</p>
+            <a href="https://ramatranztravel.com/" class="view-link" target="_blank">View More →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="project-card">
+          <img src="https://via.placeholder.com/400x150" alt="E-Commerce">
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Website</h5>
+            <h6 class="card-subtitle">Rumah Sanitary (Sep 2024)</h6>
+            <p>Mengembangkan platform e-commerce untuk penjualan produk sanitasi dengan Laravel dan MySQL.</p>
+            <p>Developed an e-commerce platform for selling sanitary products using Laravel and MySQL.</p>
+            <a href="https://rumahsanitary.com/" class="view-link" target="_blank">View More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Experience Section / Bagian Pengalaman -->
+<section id="experience" class="bg-white">
+  <div class="container-fluid bg-secondary" style="color: rgb(255, 255, 255);">
+    <h1 class="text-center mb-5">Experience / Pengalaman</h1>
+    <div>
+      <h4>PT. Nirmana Mosuqu Quants</h4>
+      <p><strong>Web dan Flutter Developer / Web and Flutter Developer</strong> (Agustus 2024 – November 2024 / Aug 2024 – Nov 2024)</p>
+      <ul>
+        <li>Merancang alur aplikasi dan dashboard *Name Quotient* bersama tim analis. / Designed app flow and dashboard for *Name Quotient* with the analysis team.</li>
+        <li>Mengelola database menggunakan DBeaver dan MySQL dengan optimasi query. / Managed the database using DBeaver and MySQL with query optimization.</li>
+        <li>Melakukan deployment ke VPS menggunakan AWS, Core FTP, Linux, dan Nginx. / Performed deployment to VPS using AWS, Core FTP, Linux, and Nginx.</li>
+        <li>Mengembangkan backend dengan Laravel dan REST API, serta integrasi Firebase untuk otentikasi. / Developed backend with Laravel and REST API, and integrated Firebase for authentication.</li>
+        <li>Melaksanakan pengujian otomatis dengan PHP Unit Testing untuk memastikan fungsi aplikasi. / Performed automated testing with PHP Unit Testing to ensure app functionality.</li>
+      </ul>
+
+      <h4>PT. Newus Technology</h4>
+      <p><strong>Web Developer dan Digital Marketing / Web Developer and Digital Marketing</strong> (Mei 2024 – Oktober 2024 / May 2024 – Oct 2024)</p>
+      <ul>
+        <li>Bersama stakeholder menentukan batasan, kebutuhan, dan fungsionalitas yang dibutuhkan pada website sesuai dengan rancangan. / Collaborated with stakeholders to define limitations, requirements, and needed functionality for the website according to the design.</li>
+        <li>Membuat database menggunakan DBeaver dan MySQL. / Created database using DBeaver and MySQL.</li>
+        <li>Mengembangkan kode menggunakan Laravel, CodeIgniter, dan ReactJS, serta melakukan simulasi dan pengujian pada website. / Developed code using Laravel, CodeIgniter, and ReactJS, and conducted simulations and testing on the website.</li>
+        <li>Menerapkan optimasi SEO (Search Engine Optimization) dalam setiap produk website Newus. / Applied SEO (Search Engine Optimization) optimization in each Newus website product.</li>
+      </ul>
+
+      <h4>PT. Radar Lampung Online</h4>
+      <p><strong>Frontend Web Developer - Internship / Frontend Web Developer - Internship</strong> (Juni 2023 - September 2023 / Jun 2023 - Sep 2023)</p>
+      <ul>
+        <li>Bersama stakeholder menentukan batasan, kebutuhan, dan fungsionalitas yang dibutuhkan pada website sesuai dengan kebutuhan perusahaan. / Collaborated with stakeholders to define limitations, requirements, and functionality for the website according to the company's needs.</li>
+        <li>Melakukan styling dengan HTML, CSS, dan JavaScript. / Applied styling with HTML, CSS, and JavaScript.</li>
+        <li>Mengembangkan kode menggunakan PHP dan Laravel. / Developed code using PHP and Laravel.</li>
+        <li>Melakukan serangkaian simulasi dan pengujian pada website. / Conducted a series of simulations and testing on the website.</li>
+      </ul>
+
+      <h4>PT. HRL Bisnis Indonesia</h4>
+      <p><strong>Full Stack Web Developer / Full Stack Web Developer</strong> (Oktober 2022 - April 2023 / Oct 2022 - Apr 2023)</p>
+      <ul>
+        <li>Bersama stakeholder mengidentifikasi *flow* yang berlaku dan diaplikasikan ke website. / Collaborated with stakeholders to identify the applicable flow and applied it to the website.</li>
+        <li>Membuat database menggunakan Microsoft MySQL. / Created database using Microsoft MySQL.</li>
+        <li>Mengembangkan kode menggunakan PHP dan Laravel, serta melakukan simulasi dan pengujian pada website. / Developed code using PHP and Laravel, and conducted simulations and testing on the website.</li>
+      </ul>
+
+      <h4>Institut Teknologi Sumatera (UPT. Laboratorium ITERA)</h4>
+      <p><strong>Asisten Laboratorium – Part-Time / Laboratory Assistant – Part-Time</strong> (Maret 2020 – Desember 2020 / Mar 2020 - Dec 2020)</p>
+      <ul>
+        <li>Membuat modul materi praktikum Sistem Operasi dan Basis Data. / Created practicum material modules for Operating Systems and Database.</li>
+        <li>Menjalankan pelaksanaan praktikum sesuai dengan modul praktikum. / Ran the practicum sessions according to the material modules.</li>
+        <li>Membuat modul materi praktikum Jaringan Komputer. / Created practicum material modules for Computer Networks.</li>
+        <li>Memeriksa dan menilai laporan peserta praktikum. / Checked and evaluated practicum reports from students.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p style="color: rgb(255, 255, 255);">© 2024 Gilang Rizky Ramadhan</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
