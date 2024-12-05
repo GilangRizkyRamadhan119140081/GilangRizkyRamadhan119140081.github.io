@@ -116,6 +116,105 @@ h5, h6 {
 }
 
 /* ================================
+   Experience Section Styling
+================================ */
+.experience-section {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    padding: 50px 0;
+}
+
+.experience-section h1 {
+    color: #2c3e50; /* Warna judul */
+    font-family: 'Poppins', sans-serif; /* Font modern */
+    margin-bottom: 50px;
+}
+
+/* Timeline Container */
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+/* Vertical line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #34495e; /* Warna garis */
+    transform: translateX(-50%);
+}
+
+/* Timeline Items */
+.timeline-item {
+    position: relative;
+    margin: 30px 0;
+}
+
+/* Timeline Content */
+.timeline-content {
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Left and Right */
+.timeline-content.left {
+    left: 0;
+    transform: translateX(-105%);
+    text-align: right;
+}
+
+.timeline-content.right {
+    right: 0;
+    transform: translateX(105%);
+    text-align: left;
+}
+
+/* Connecting Dots */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f39c12; /* Warna titik */
+    border: 4px solid #34495e; /* Border pada titik */
+    border-radius: 50%;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .timeline-content {
+        width: 90%;
+        text-align: center;
+    }
+
+    .timeline-content.left,
+    .timeline-content.right {
+        transform: translateX(0);
+    }
+
+    .timeline::before {
+        left: 4%;
+    }
+
+    .timeline-item::after {
+        left: 4%;
+    }
+}
+
+
+/* ================================
    Footer Styling
 ================================ */
 footer {
