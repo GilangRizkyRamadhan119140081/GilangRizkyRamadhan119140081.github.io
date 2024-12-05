@@ -1,17 +1,22 @@
-/* Custom CSS */
+/* General Body Styling */
 body {
-    background-color: #2c3e50; /* Warna latar belakang yang lebih elegan */
-    color: #ecf0f1; /* Warna teks default */
-    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; /* Elegan dan gelap */
+    color: #ecf0f1; /* Kontras yang baik untuk teks */
+    font-family: 'Arial', sans-serif; /* Font yang mudah dibaca */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 /* Navbar Styling */
 .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    background-color: #34495e;
 }
 
 .nav-link {
-    transition: all 0.3s ease;
+    color: #ecf0f1; /* Warna teks default */
+    transition: all 0.3s ease; /* Transisi smooth untuk hover */
 }
 
 .nav-link:hover {
@@ -20,34 +25,38 @@ body {
 
 /* Section Titles */
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Font modern */
     font-weight: bold;
-    color: #f39c12;
+    color: #f39c12; /* Warna oranye */
+    text-align: center;
     margin-bottom: 20px;
 }
 
 h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Font untuk subjudul */
+    font-weight: normal;
+    color: #ecf0f1;
 }
 
 /* Project Cards */
 .project-card {
-    background-color: #34495e;
+    background-color: #34495e; /* Warna gelap untuk kartu */
     border-radius: 10px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek hover smooth */
+    margin-bottom: 20px;
 }
 
 .project-card img {
-    border-bottom: 3px solid #f39c12;
+    border-bottom: 3px solid #f39c12; /* Garis pemisah oranye */
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 200px; /* Tinggi tetap untuk konsistensi */
+    object-fit: cover; /* Memastikan gambar selalu proporsional */
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px); /* Efek hover mengangkat */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Bayangan hover */
 }
 
 .project-card .card-body {
@@ -67,10 +76,12 @@ h5, h6 {
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;
+    transition: all 0.3s ease; /* Transisi hover */
 }
 
 .project-card .view-link:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Garis bawah saat hover */
+    color: #ecf0f1;
 }
 
 /* Progress Bars */
@@ -79,43 +90,47 @@ h5, h6 {
 }
 
 .progress-bar.bg-primary {
-    background-color: #3498db;
+    background-color: #3498db; /* Biru untuk progress utama */
 }
 
 .progress-bar.bg-danger {
-    background-color: #e74c3c;
+    background-color: #e74c3c; /* Merah untuk progress negatif */
 }
 
 .progress-bar.bg-warning {
-    background-color: #f1c40f;
+    background-color: #f1c40f; /* Kuning untuk progress peringatan */
 }
 
 /* Footer Styling */
 footer {
-    background-color: #2c3e50;
+    background-color: #2c3e50; /* Sama dengan latar belakang utama */
     text-align: center;
     padding: 20px 0;
-    color: #bdc3c7;
+    color: #bdc3c7; /* Warna abu-abu untuk teks */
     margin-top: 20px;
     font-size: 0.9rem;
 }
 
 footer p {
     margin: 0;
+    font-size: 0.85rem; /* Teks lebih kecil */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .project-card img {
-        height: 150px;
+        height: 150px; /* Tinggi gambar lebih kecil di perangkat kecil */
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.8rem; /* Ukuran judul lebih kecil */
     }
 
     .project-card .card-title {
-        font-size: 1.3rem;
+        font-size: 1.3rem; /* Ukuran subjudul lebih kecil */
+    }
+
+    .navbar {
+        padding: 10px; /* Navbar lebih ringkas */
     }
 }
-
