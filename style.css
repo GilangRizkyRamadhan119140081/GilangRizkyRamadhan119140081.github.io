@@ -121,6 +121,7 @@ h5, h6 {
 .experience-section {
     background-color: #f8f9fa; /* Warna latar belakang */
     padding: 50px 0;
+    color: #000; /* Warna teks hitam */
 }
 
 .experience-section h1 {
@@ -129,115 +130,27 @@ h5, h6 {
     margin-bottom: 50px;
 }
 
-/* Timeline Container */
-.timeline {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-/* Vertical Line */
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 4px;
-    background-color: #34495e; /* Warna garis */
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-/* Timeline Items */
-.timeline-item {
-    position: relative;
-    margin: 30px 0;
-    width: 50%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-/* Left Aligned Items */
-.timeline-content.left {
-    position: relative;
-    left: 0;
-    margin-left: auto;
-    text-align: right;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-}
-
-/* Right Aligned Items */
-.timeline-content.right {
-    position: relative;
-    right: 0;
-    margin-right: auto;
-    text-align: left;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-}
-
-/* Connecting Dots */
-.timeline-item::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #f39c12; /* Warna titik */
-    border: 4px solid #34495e; /* Border pada titik */
-    border-radius: 50%;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-}
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    .timeline {
-        padding: 0 20px;
-    }
-
-    .timeline-content {
-        width: 100%;
-        text-align: center;
-        margin: 20px auto;
-    }
-
-    .timeline-content.left,
-    .timeline-content.right {
-        transform: translateX(0);
-    }
-
-    .timeline::before {
-        left: 20px;
-    }
-
-    .timeline-item::after {
-        left: 20px;
-    }
-}
 .card {
-  background-color: #34495e; /* Warna kartu */
-  color: #ecf0f1; /* Warna teks */
-  border-radius: 10px; /* Sudut membulat */
+    background-color: #ffffff; /* Warna kartu putih */
+    color: #000000; /* Warna teks hitam */
+    border-radius: 10px; /* Sudut membulat */
+    border: 1px solid #ddd; /* Border abu-abu terang */
 }
 
 .card h4 {
-  color: #f39c12; /* Warna judul */
+    color: #2c3e50; /* Warna judul kartu */
 }
 
 .card ul {
-  list-style-type: disc;
-  padding-left: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #000; /* Warna teks hitam */
 }
+
+.card p {
+    color: #000; /* Warna teks hitam */
+}
+
 
 
 
