@@ -224,6 +224,21 @@ h5, h6 {
         left: 20px;
     }
 }
+.card {
+  background-color: #34495e; /* Warna kartu */
+  color: #ecf0f1; /* Warna teks */
+  border-radius: 10px; /* Sudut membulat */
+}
+
+.card h4 {
+  color: #f39c12; /* Warna judul */
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
 
 
 
