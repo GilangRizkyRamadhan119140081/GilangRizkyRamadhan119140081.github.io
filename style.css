@@ -2,131 +2,164 @@
    General Body Styling
 ================================ */
 body {
-    background-color: #2c3e50; /* Warna latar belakang elegan */
-    color: #ecf0f1; /* Kontras yang baik untuk teks */
-    font-family: 'Arial', sans-serif; /* Font utama */
+    background-color: #2c3e50; /* Elegan dan profesional */
+    color: #ecf0f1; /* Kontras dengan latar belakang */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6; /* Spasi antar baris untuk kenyamanan membaca */
-    overflow-x: hidden; /* Mencegah scrollbar horizontal */
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* ================================
    Navbar Styling
 ================================ */
 .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan halus */
-    background-color: #34495e; /* Warna gelap */
-    padding: 15px 20px; /* Padding dalam navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #34495e;
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+.navbar-brand:hover {
+    color: #ecf0f1;
 }
 
 .nav-link {
-    color: #ecf0f1; /* Warna teks navbar */
-    transition: all 0.3s ease; /* Transisi hover */
+    color: #ecf0f1;
+    transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #f39c12; /* Warna oranye saat hover */
-    text-decoration: none; /* Hilangkan garis bawah */
+    color: #f39c12;
+    text-decoration: none;
 }
 
 /* ================================
    Section Titles
 ================================ */
 h1 {
-    font-family: 'Poppins', sans-serif; /* Font modern */
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color: #f39c12; /* Warna oranye */
+    color: #f39c12;
     text-align: center;
-    margin-bottom: 20px; /* Spasi bawah */
+    margin-bottom: 20px;
 }
 
 h5, h6 {
-    font-family: 'Roboto', sans-serif; /* Font untuk subjudul */
-    font-weight: normal;
-    color: #ecf0f1; /* Warna teks default */
+    font-family: 'Roboto', sans-serif;
+    color: #ecf0f1;
 }
 
 /* ================================
-   Experience Section Styling
+   About Section
+================================ */
+#about {
+    padding: 50px 20px;
+}
+
+#about img {
+    border: 3px solid #f39c12;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+/* ================================
+   Project Cards
+================================ */
+.project-card {
+    background-color: #34495e;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    border: 1px solid #2c3e50;
+}
+
+.project-card img {
+    border-bottom: 3px solid #f39c12;
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-body {
+    padding: 15px;
+}
+
+.project-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+.project-card .card-subtitle {
+    font-size: 0.9rem;
+    color: #ecf0f1;
+}
+
+.project-card .view-link {
+    color: #f39c12;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-card .view-link:hover {
+    color: #ecf0f1;
+}
+
+/* ================================
+   Experience Section
 ================================ */
 .experience-section {
-    background-color: #f8f9fa; /* Warna latar belakang */
-    padding: 50px 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 50px 20px;
 }
 
-.experience-section h1 {
-    color: #2c3e50; /* Warna judul */
-    font-family: 'Poppins', sans-serif; /* Font modern */
-    margin-bottom: 50px;
-}
-
-.card {
-    background-color: #ffffff; /* Warna kartu putih */
-    color: #000000 !important; /* Warna teks hitam */
-    border-radius: 10px; /* Sudut membulat */
-    border: 1px solid #ddd; /* Border abu-abu terang */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+.experience-section .card {
+    background-color: #34495e;
+    border: none;
+    border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-5px); /* Efek hover naik */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
+.experience-section .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.card h4 {
-    color: #2c3e50 !important; /* Warna judul kartu */
-}
-
-.card ul {
-    list-style-type: disc;
+.experience-section ul {
     padding-left: 20px;
-    color: #000000 !important; /* Warna teks hitam */
 }
 
-.card p {
-    color: #000000 !important; /* Warna teks hitam */
+.experience-section ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 /* ================================
    Footer Styling
 ================================ */
 footer {
-    background-color: #2c3e50; /* Warna latar belakang footer */
+    background-color: #34495e;
+    color: #ecf0f1;
     text-align: center;
-    padding: 20px 0; /* Padding vertikal */
-    color: #bdc3c7; /* Warna abu-abu untuk teks */
-    font-size: 0.9rem; /* Ukuran font kecil */
-    margin-top: 20px; /* Jarak atas */
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.85rem; /* Ukuran teks lebih kecil */
-}
-
-/* ================================
-   Responsive Design
-================================ */
-@media (max-width: 768px) {
-    .project-card img {
-        height: 150px; /* Tinggi gambar lebih kecil di perangkat kecil */
-    }
-
-    h1 {
-        font-size: 1.8rem; /* Ukuran judul lebih kecil */
-    }
-
-    .project-card .card-title {
-        font-size: 1.3rem; /* Ukuran subjudul lebih kecil */
-    }
-
-    .navbar {
-        padding: 10px; /* Navbar lebih ringkas */
-    }
-
-    footer {
-        font-size: 0.8rem; /* Ukuran teks footer lebih kecil */
-    }
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 0.9rem;
 }
