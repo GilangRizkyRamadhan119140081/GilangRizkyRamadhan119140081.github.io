@@ -48,80 +48,11 @@ h5, h6 {
 }
 
 /* ================================
-   Project Cards
-================================ */
-.project-card {
-    background-color: #34495e; /* Warna gelap untuk kartu */
-    border-radius: 10px; /* Sudut membulat */
-    overflow: hidden; /* Mencegah konten keluar */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek hover */
-    margin-bottom: 20px; /* Jarak antar kartu */
-    border: 1px solid #2c3e50; /* Garis luar halus */
-}
-
-.project-card img {
-    border-bottom: 3px solid #f39c12; /* Garis pemisah oranye */
-    width: 100%;
-    height: 200px; /* Tinggi tetap untuk konsistensi */
-    object-fit: cover; /* Gambar proporsional */
-    border-radius: 10px 10px 0 0; /* Membulatkan bagian atas */
-}
-
-.project-card:hover {
-    transform: translateY(-10px); /* Efek hover naik */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
-}
-
-.project-card .card-body {
-    padding: 20px; /* Padding dalam kartu */
-}
-
-.project-card .card-title {
-    font-size: 1.5rem; /* Ukuran judul */
-    margin-bottom: 10px; /* Spasi bawah */
-    color: #f39c12; /* Warna oranye */
-}
-
-.project-card .view-link {
-    color: #f39c12; /* Warna link */
-    text-decoration: none; /* Hilangkan garis bawah */
-    font-weight: bold;
-    display: inline-block; /* Untuk mengatur margin atas */
-    margin-top: 10px; /* Spasi atas */
-    transition: all 0.3s ease; /* Transisi hover */
-}
-
-.project-card .view-link:hover {
-    text-decoration: underline; /* Garis bawah saat hover */
-    color: #ecf0f1; /* Warna putih saat hover */
-}
-
-/* ================================
-   Progress Bars
-================================ */
-.progress-bar {
-    transition: width 0.4s ease; /* Transisi saat bar bergerak */
-}
-
-.progress-bar.bg-primary {
-    background-color: #3498db; /* Warna biru */
-}
-
-.progress-bar.bg-danger {
-    background-color: #e74c3c; /* Warna merah */
-}
-
-.progress-bar.bg-warning {
-    background-color: #f1c40f; /* Warna kuning */
-}
-
-/* ================================
    Experience Section Styling
 ================================ */
 .experience-section {
     background-color: #f8f9fa; /* Warna latar belakang */
     padding: 50px 0;
-    color: #000; /* Warna teks hitam */
 }
 
 .experience-section h1 {
@@ -132,28 +63,31 @@ h5, h6 {
 
 .card {
     background-color: #ffffff; /* Warna kartu putih */
-    color: #000000; /* Warna teks hitam */
+    color: #000000 !important; /* Warna teks hitam */
     border-radius: 10px; /* Sudut membulat */
     border: 1px solid #ddd; /* Border abu-abu terang */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efek hover naik */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bayangan saat hover */
 }
 
 .card h4 {
-    color: #2c3e50; /* Warna judul kartu */
+    color: #2c3e50 !important; /* Warna judul kartu */
 }
 
 .card ul {
     list-style-type: disc;
     padding-left: 20px;
-    color: #000; /* Warna teks hitam */
+    color: #000000 !important; /* Warna teks hitam */
 }
 
 .card p {
-    color: #000; /* Warna teks hitam */
+    color: #000000 !important; /* Warna teks hitam */
 }
-
-
-
-
 
 /* ================================
    Footer Styling
