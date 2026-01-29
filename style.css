@@ -234,3 +234,22 @@ footer {
 .list-group-item {
     border-color: rgba(255,255,255,0.08);
 }
+
+
+/* ================================
+   About Hero Image (non-circle)
+================================ */
+.profile-hero-img{
+  width: 100%;
+  max-width: 260px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 14px; /* bukan bulat */
+  border: 3px solid rgba(243,156,18,.9);
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
+
+/* optional: gaya hitam-putih seperti referensi */
+.profile-hero-img.grayscale{
+  filter: grayscale(100%);
+}
